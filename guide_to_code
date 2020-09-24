@@ -1,0 +1,7 @@
+Because later scripts depend on earlier scripts having been run, make sure to run these scripts in the following order:
+1) process_models.R
+2) process_ECRmod_models.R
+3) summarize_findings.R
+
+
+It's additionally worth noting that several of the senstivitiy analyses depend on objects created by (1) and (2) so ensure that these bsem_analyses are conducted prior to sensitivity and secondary analyses. 
